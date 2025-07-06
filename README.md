@@ -5,12 +5,13 @@ This study focuses on the development and optimization of a wearable in vivo blo
 
 中文摘要：  
 本项目为一款穿戴式扩散散斑血流检测仪器的算法控制代码，包括散斑处理，单曝光血流脉搏波显示，多曝光血流定量测量等功能。可在win平台与linux平台上实现。  
+
 使用方法：  
 win：运行s_DSCA.py,系统进行单曝光测量，实时显示脉搏波形与心率。运行m_DSCA.py，系统进行一次多曝光血流检测返回血流指数，该指数与血流速度呈线性关系（0.85）。  
 linux：复制linux文件夹中的s_DSCA.py与m_DSCA.py，替换win文件夹中的同名文件，运行后即可实现相功能。  
 
 拥有仪器本体：  
-硬件准备：树莓派通过usb口连接激光器与ccd，同时保证5V稳定供电，供电是波形显示帧率的关键。
+硬件准备：树莓派通过usb口连接激光器与ccd，同时保证5V稳定供电，供电是波形显示帧率的关键。  
 step1 开机后打开pycharm，打开同名项目  
 step2 运行s_DSCA.py与m_DSCA.py以分别实现单曝光与多曝光。  
 
