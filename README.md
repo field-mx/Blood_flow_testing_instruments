@@ -15,4 +15,5 @@ linux：复制linux文件夹中的s_DSCA.py与m_DSCA.py，替换win文件夹中�
 step1 开机后打开pycharm，打开同名项目  
 step2 运行s_DSCA.py与m_DSCA.py以分别实现单曝光与多曝光。  
 
-ps：如果帧率较低，请检查树莓派供电，提供充足电流。
+ps：如果帧率较低，请检查树莓派供电，提供充足电流。  
+ps：mentkalo文件内为分析蒙特卡洛光子模拟的程序，将可视化光子来源分布。输入二进制文件.jnii等，经过光路追迹反演输出图像
